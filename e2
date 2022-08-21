@@ -1,69 +1,16 @@
-Github token:- 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
---------------------------------------------------------
 
-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
-
-
-package miniwebservice;
-
-import javax.jws.WebService;
-
-@WebService( endpointInterface="miniwebservice.HalloWelt" )
-public class HalloWeltImpl implements HalloWelt
-{
-   public String hallo( String wer )
-   {
-      return "Hallo " + wer;
-   }
-}
-
-
-package miniwebservice;
-
-import javax.jws.*;
-
-@WebService
-public interface HalloWelt
-{
-   public String hallo( @WebParam( name = "wer" ) String wer );
-}
+hlo 
+git commands 
+how are you 
+git add 
+git commit -m "label name"
+git reset --soft cid
+git reset HEAD filename 
+git reset --mixed cid
 
 
 
 
-
-
-
-
-Github token:- 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
---------------------------------------------------------
-
-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
-
-
-package miniwebservice;
-
-import javax.jws.WebService;
-
-@WebService( endpointInterface="miniwebservice.HalloWelt" )
-public class HalloWeltImpl implements HalloWelt
-{
-   public String hallo( String wer )
-   {
-      return "Hallo " + wer;
-   }
-}
-
-
-package miniwebservice;
-
-import javax.jws.*;
-
-@WebService
-public interface HalloWelt
-{
-   public String hallo( @WebParam( name = "wer" ) String wer );
-}
 
 
 
