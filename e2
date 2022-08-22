@@ -5,8 +5,6 @@ how are you
 git add 
 git commit -m "label name"
 git reset --soft cid
-git reset HEAD filename 
-git reset --mixed cid
 
 
 
